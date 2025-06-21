@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background-color: rgb(188, 132, 240);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    height:140px ;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+}
+nav{
+    width: 95%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    position: absolute;
+
+}
+li{
+    list-style-type: none;
+
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    flex-direction: column;
+    
+    
+    
+}
+.container{
+    display: flex;
+    align-items:top;
+    padding: 30px;
+    margin-right: 20px;
+    height: 50px;
+    justify-content: space-around;
+    width: 30%;
+
+}
+.logo{
+    height: 19vh;
+padding: 2px;
+margin-left: 12px;
+}
+.logo img{
+    height: 100%;
+    clip-path: circle(50%);
+}
+    
+
+.hero img{
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    
+    background-color: transparent;
+    
+}
+.down{
+    background-color: bisque;
+    color: black;
+    width: 100%;
+    align-items: center;
+    margin: 30px;
+margin-bottom: 50%;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+
+    
+
+.hero-btn{
+    
+    background-color: rgb(159, 17, 126);
+    color: white;
+    padding: 10px;
+    margin-top: 100%;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    position: relative;
+}
+.hero-btn:hover{
+    color:rgb(70, 161, 186);
+
+    transition: 1s;
+}
+h1::selection{
+    color: white;
+    background-color: rgb(35, 188, 109);
+}
+.d1{
+    background-color: blanchedalmond;
+    color: blueviolet;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+p::selection{
+    color: aqua;
+    background-color: brown;
+    cursor: pointer;
+}
+
+
+    
+    
+
